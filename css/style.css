@@ -261,19 +261,23 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(1) .bar span{
-    width:95%;
-}
-
-.about .row-2 .skills .progress:nth-child(2) .bar span{
     width:80%;
 }
 
+.about .row-2 .skills .progress:nth-child(2) .bar span{
+    width:90%;
+}
+
 .about .row-2 .skills .progress:nth-child(3) .bar span{
-    width:75%;
+    width:80%;
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width:85%;
+    width:75%;
+}
+
+.about .row-2 .skills .progress:nth-child(5) .bar span{
+    width:40%;
 }
 
 .about .row-2 .box-container{
@@ -355,7 +359,7 @@ header .follow a:hover{
 .portfolio .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap:3rem;
 }
 
 .portfolio .box-container .box{
@@ -371,7 +375,7 @@ header .follow a:hover{
 
 .portfolio .box-container .box img{
     height: 75%;
-    width: 85%;
+    width: 80%;
     object-fit: cover;
     border: 1px solid var(--main-color);
     border-radius: .5rem;
