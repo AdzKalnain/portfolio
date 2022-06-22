@@ -10,7 +10,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -34,7 +34,6 @@ section{
 .heading{
     font-size: 4rem;
     padding-bottom: 1rem;
-    /* color:#111; */
     color: #17252a;
     text-transform: uppercase;
 }
@@ -46,7 +45,7 @@ section{
 
 .btn{
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 3rem;
     padding:.8rem 3rem;
     background:var(--main-color);
     color:#fff;
@@ -94,10 +93,10 @@ header .navbar a{
     /* color:#fff; */
     color: #DEF2F1;
     margin:2rem 0;
+    text-transform: capitalize;
 }
 
 header .navbar a:hover{
-    letter-spacing: .2rem;
     color:var(--main-color);
 }
 
@@ -129,6 +128,7 @@ header .follow a:hover{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
+    text-transform: capitalize;
 }
 
 .home .image{
@@ -198,6 +198,7 @@ header .follow a:hover{
 .about .row-1 .content h3{
     color:#333;
     font-size: 3.5rem;
+    text-transform: capitalize;
 }
 
 .about .row-1 .content p{
@@ -211,6 +212,7 @@ header .follow a:hover{
     flex-wrap: wrap;
     gap:1.5rem;
     padding: 0.5rem 0;
+    text-transform: capitalize;
 }
 
 .about .row-1 .content .box-container .box{
